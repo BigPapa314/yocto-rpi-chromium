@@ -11,7 +11,7 @@ cd yocto-rpi-chromium
 ```bash
 source ./sources/poky/oe-init-build-env build-rpi4
 bitbake core-image-weston
-IMAGE_NAME=build-rpi4/deploy/images/raspberrypi4-64/core-image-minimal-raspberrypi4-64.rootfs.wic
+IMAGE_NAME=build-rpi4/deploy/images/raspberrypi4-64/core-image-weston-raspberrypi4-64.rootfs.wic
 sudo bmaptool copy --bmap $IMAGE_NAME.bmap $IMAGE_NAME.bz2 /dev/<SD_CARD>
 ```
 
@@ -19,7 +19,7 @@ sudo bmaptool copy --bmap $IMAGE_NAME.bmap $IMAGE_NAME.bz2 /dev/<SD_CARD>
 ```bash
 source ./sources/poky/oe-init-build-env build-rpi5
 bitbake core-image-weston
-IMAGE_NAME=build-rpi5/deploy/images/raspberrypi4-64/core-image-minimal-raspberrypi4-64.rootfs.wic
+IMAGE_NAME=build-rpi5/deploy/images/raspberrypi5/core-image-weston-raspberrypi5.rootfs.wic
 sudo bmaptool copy --bmap $IMAGE_NAME.bmap $IMAGE_NAME.bz2 /dev/<SD_CARD>
 ```
 

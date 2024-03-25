@@ -1,0 +1,20 @@
+[submodule "sources/meta-raspberrypi"]
+	path = sources/meta-raspberrypi
+	url = https://git.yoctoproject.org/meta-raspberrypi
+	branch = master
+[submodule "sources/poky"]
+	path = sources/poky
+	url = https://git.yoctoproject.org/poky
+	branch = master
+[submodule "sources/meta-browser"]
+	path = sources/meta-browser
+	url = https://github.com/OSSystems/meta-browser.git
+	branch = master
+[submodule "sources/meta-clang"]
+	path = sources/meta-clang
+	url = https://github.com/kraj/meta-clang.git
+	branch = master
+[submodule "sources/meta-openembedded"]
+	path = sources/meta-openembedded
+	url = https://git.openembedded.org/meta-openembedded
+	branch = master

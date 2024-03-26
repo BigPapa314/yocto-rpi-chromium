@@ -27,7 +27,7 @@ $ sudo bmaptool copy --bmap $IMAGE_NAME.bmap $IMAGE_NAME.bz2 /dev/<SD_CARD>
 
 The debug instrumentation is added by the meta-debug layer. Remove it from bblayers.conf and you get the default image.
 
-To run the test insert the sd card, that has been create with the meta-debug layer, into the raspberry pi and connect to the serial console. After boot up login as 'root' and call:
+To run the test insert the sd card, that has been created with the meta-debug layer, into the raspberry pi and connect to the serial console. After boot up login as 'root' and call:
 ```bash
 $ chromium --no-sandbox --in-process-gpu
 ```

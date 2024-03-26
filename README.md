@@ -33,3 +33,10 @@ $ chromium --no-sandbox --in-process-gpu
 ```
 
 This causes the crash in the main process and gdb will stop and show the source code.
+
+To have color output from gdb call
+```bash
+$ export TERM=xterm-256color
+```
+before starting chromium.
+

@@ -1,4 +1,6 @@
 
+IMAGE_INSTALL:append = " mesa-demos"
+
 IMAGE_FEATURES:append = " dbg-pkgs src-pkgs tools-debug"
 
 SRC_FILE := "${THISDIR}/files/chromium-wrapper.sh"

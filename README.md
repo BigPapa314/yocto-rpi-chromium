@@ -40,3 +40,11 @@ $ export TERM=xterm-256color
 ```
 before starting chromium.
 
+## Findings
+
+It works if you force surfaceless egl platform. This can be done by calling
+```bash
+$ export EGL_PLATFORM=surfaceless
+```
+and then start chromium as described at 'Debugging'.
+
